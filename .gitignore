@@ -1,0 +1,22 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Data 
+data/dataset/
+data/train/
+data/valid/
+
+# Model files 
+*.keras
+
+# OS files
+.DS_Store
+Thumbs.db
